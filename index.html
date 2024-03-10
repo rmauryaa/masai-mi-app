@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          background-color: lightgray;
+        }
+  
+        .navbar {
+          width: 100%;
+          height: 45px;
+          background-color: rgb(255, 255, 255);
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          display: flex;
+          align-items: center;
+        }
+        .mi-pic {
+          width: 25px;
+          height: 24px;
+          background-size: cover;
+          border-radius: 4px;
+          margin-left: 15px;
+          background-color: orange;
+        }
+        .content {
+          display: flex;
+          width: 600px;
+          justify-content: space-evenly;
+          font-family: sans-serif;
+        }
+        .effect:hover {
+          color: yellowgreen;
+        }
+        .lastbox-2nd {
+          font-family: sans-serif;
+          display: flex;
+          justify-content: space-evenly;
+          margin-left: 480px;
+          width: 170px;
+          gap: 12px;
+        }
+  
+        .lastbox {
+          display: flex;
+          justify-content: space-evenly;
+          width: 160px;
+          font-size: 20px;
+          margin-left: auto;
+        }
+        .earphone {
+          width: 900px;
+          height: 250px;
+          background-color: white;
+          margin: auto;
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 30px;
+          align-items: center;
+        }
+        .small-ear {
+          padding: 9px;
+          width: 200px;
+          height: 220px;
+  
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-sizing: border-box;
+        }
+        .after-earphone {
+          margin: auto;
+          width: 880px;
+          height: 140px;
+  
+          margin-top: 40px;
+          background-image: url("https://i03.appmifile.com/313_operator_in/05/06/2023/da85ab08b8be256a4ac91a43c02ad695.jpg?thumb=1&w=3360&f=webp&q=85");
+          background-size: cover;
+          display: flex;
+          align-items: center;
+        }
+        .save-upto {
+          margin-left: 50px;
+        }
+        .text {
+          font-size: 25px;
+          font-weight: 525;
+          font-family: sans-serif;
+        }
+        .Free-delivery {
+          margin-top: 4px;
+          font-family: sans-serif;
+          font-size: 16px;
+          color: #191919;
+        }
+        .button {
+          background-color: black;
+          color: aliceblue;
+          width: 90px;
+          border-radius: 3px;
+        }
+        .img {
+          width: 100px;
+          height: 100px;
+          position: relative;
+          left: 42px;
+  
+          bottom: 15px;
+          border-radius: 10px;
+        }
+        .Redmi {
+          margin-top: 10px;
+          font-size: 18px;
+          font-weight: 700;
+        }
+        #botton-all {
+          margin-top: 10px;
+          margin-bottom: 5px;
+          color: rgb(255, 104, 0);
+          background-color: rgb(254, 240, 233);
+          border: 1px solid rgb(255, 104, 0);
+          padding: 4px;
+          box-sizing: border-box;
+          border-radius: 3px;
+        }
+        .icon {
+          font-size: 22px;
+          margin-left: 10px;
+          margin-top: -7px;
+        }
+      </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="mi-pic">Mi</div>
+            <div class="content effect">
+                <span>Store</span><span>Phone</span><span>TV &amp; Smart
+                    Home</span><span>Tablet</span><span>LifeStyle</span><span></span>
+                <span></span>
+            </div>
+            <div class="lastbox-2nd effect">
+                <span>Discover</span>&nbsp;
+                <span>Support</span>
+                <div class="icon">🔍</div>
+                <!-- Search Icon -->
+                <div class="icon">🛒</div>
+                <!-- Store Icon -->
+                <div class="icon">👤</div>
+                <!-- User Icon -->
+            </div>
+            <div class="lastbox">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="shopping-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+    <div class="earphone">
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Redmi Earphones</span><br>
+            <span><button id="botton-all-1">25% off</button></span><br>
+            <span>₹449</span><br>
+            <span><del>₹559</del></span>
+            <img class="img"
+                src="https://i03.appmifile.com/713_item_in/01/09/2023/4f36194c14225e29ac4dfbbc2f9b9adc!800x800!85.png"
+                alt="">
+        </div>
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Mi Dual Driver in-ear Earphones </span><br>
+            <span><button id="botton-all-2">20% off</button></span><br>
+            <span>₹799</span>
+            <br><span><del>₹999</del></span>
+            <img class="img"
+                src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825722.98226831!600x600!85.png"
+                alt="">
+        </div>
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Redmi Sonic Bass Wireless Earphones 2</span><br>
+            <span><button id="botton-all-3">56% off</button></span><br>
+            <span>₹1299</span>
+            <br><span><del>₹2999</del></span>
+            <img class="img"
+                src="https://i03.appmifile.com/9_item_in/01/08/2023/5b55c8858a7f2107e20d448e280e6357!600x600!85.jpg"
+                alt="">
+        </div>
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Mi portable Blueetooth Speaker(16W)</span><br>
+            <span><button id="botton-all-4">28% off</button></span><br>
+            <span>₹2499</span>
+            <br><span><del>₹3499</del></span>
+            <img class="img"
+                src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1613844064.93574921!600x600!85.jpg"
+                alt="">
+        </div>
+    </div>
+    <div class="after-earphone">
+        <div class="save-upto">
+            <span class="text"> Save Up to 65% </span>
+            <br><span class="text"> On Charges &amp; Cables</span>
+            <p class="Free-delivery">Free Delivery on All Products</p>
+            <button class="button">Buy Now</button>
+        </div>
+    </div>
+    <div class="earphone">
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Xiaomi 120W HyperCharge Adapter</span><br>
+            <span><button id="botton-all-5">50% off</button></span><br>
+            <span>₹2999</span>
+            <br><span><del>₹5999</del></span>
+            <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1659944014.99991930!600x600!85.jpg"
+                alt="" class="img">
+        </div>
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Mi 2A Fast charger with cable</span><br>
+            <span><button id="botton-all-6">25% off</button></span><br>
+            <span>₹449</span>
+            <br><span><del>₹599</del></span> s
+            <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1575870690.22854399!600x600!85.jpg"
+                alt="" class="img">
+        </div>
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Xiaomi Sonic charger 2.0 Cable</span><br>
+            <span><button id="botton-all-7">64% off</button></span><br>
+            <span>₹249</span>
+            <br><span><del>₹699</del></span>
+            <img id="img-7"
+                src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1681374947.32038137!600x600!85.jpg"
+                alt="" class="img">
+        </div>
+        <div class="small-ear earphone-shadow">
+            <span class="Redmi">Mi 18W Dual Port Charger</span><br>
+            <span><button id="botton-all-8">35% off</button></span><br>
+            <span>₹899</span>
+            <br><span><del>₹1397</del></span>
+            <img id="img-8" src="https://i03.appmifile.com/763_item_in/16/05/2023/869a64e04768ba2ca37109040f8757d6.jpg"
+                alt="" class="img">
+        </div>
+    </div>
+
+    <div id="my-app"></div>
+
+
+
+</body>
+
+</html>
